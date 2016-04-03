@@ -2,8 +2,8 @@
 <html>
 <head>
   <title>Workspace</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
@@ -26,6 +26,8 @@
         </ul>
         <p class="navbar-text pull-right">
 <% if user_signed_in? %>
+
+<%= image_tag current_user.gravatar_url %>
   Logged in as <strong><%= current_user.user_name || current_user.email %></strong>.
 <%= link_to 'Edit Password', edit_user_registration_path, :class => 'navbar-link' %> |
 <%= link_to 'Edit Profile', edit_user_path, :class => 'navbar-link' %> |
