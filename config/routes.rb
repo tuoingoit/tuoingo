@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :comments
   get 'pages/info'
+  resource :user, only: [:edit, :update]
 
   resources :ideas
   root :to => redirect('/ideas')
