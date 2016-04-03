@@ -614,3 +614,1379 @@ Processing by IdeasController#show as HTML
   Rendered comments/_form.html.erb (1.8ms)
   Rendered ideas/show.html.erb within layouts/application (5.3ms)
 Completed 200 OK in 40ms (Views: 37.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas/1" for 1.55.242.188 at 2016-04-03 03:41:45 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mIdea Load (0.2ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 1]]
+  Rendered comments/_form.html.erb (2.2ms)
+  Rendered ideas/show.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 46ms (Views: 42.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 03:41:45 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 03:41:45 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-5beb12bc18b9be7168ac37349124f55738fdfdce9e525383f83bfd688d0298f9.css?body=1" for 1.55.242.188 at 2016-04-03 03:41:45 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 1.55.242.188 at 2016-04-03 03:41:45 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 1.55.242.188 at 2016-04-03 03:41:45 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 03:41:45 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-d2e5ccad1506299feea3a35bfb7c525e101bb3b214303715deb675fdc539948b.css?body=1" for 1.55.242.188 at 2016-04-03 03:41:45 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 1.55.242.188 at 2016-04-03 03:41:45 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 03:41:45 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 03:41:45 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 03:41:46 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 1.55.242.188 at 2016-04-03 03:41:46 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 1.55.242.188 at 2016-04-03 03:43:22 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas" for 1.55.242.188 at 2016-04-03 03:43:22 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.3ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas/1" for 1.55.242.188 at 2016-04-03 03:43:27 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mIdea Load (0.2ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  [["idea_id", 1]]
+  Rendered comments/_form.html.erb (1.9ms)
+  Rendered ideas/show.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 175ms (Views: 172.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 1.55.242.188 at 2016-04-03 03:43:29 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas" for 1.55.242.188 at 2016-04-03 03:43:29 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[36mIdea Load (0.3ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas/2" for 1.55.242.188 at 2016-04-03 03:43:31 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mIdea Load (0.2ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 2]]
+  Rendered comments/_form.html.erb (1.7ms)
+  Rendered ideas/show.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/ideas/2" for 1.55.242.188 at 2016-04-03 03:44:57 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mIdea Load (0.2ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 2]]
+  Rendered comments/_form.html.erb (2.5ms)
+  Rendered ideas/show.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 77ms (Views: 41.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 03:44:57 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 03:44:57 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 03:44:57 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-5beb12bc18b9be7168ac37349124f55738fdfdce9e525383f83bfd688d0298f9.css?body=1" for 1.55.242.188 at 2016-04-03 03:44:57 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-d2e5ccad1506299feea3a35bfb7c525e101bb3b214303715deb675fdc539948b.css?body=1" for 1.55.242.188 at 2016-04-03 03:44:57 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 1.55.242.188 at 2016-04-03 03:44:57 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 1.55.242.188 at 2016-04-03 03:44:57 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 1.55.242.188 at 2016-04-03 03:44:57 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 03:44:57 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 03:44:57 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 1.55.242.188 at 2016-04-03 03:44:57 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 03:44:57 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas/2" for 1.55.242.188 at 2016-04-03 03:46:50 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.5) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.5) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (112.2ms)
+
+
+Started GET "/" for 1.55.242.188 at 2016-04-03 03:47:06 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.5) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.5) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (91.0ms)
+
+
+Started GET "/" for 1.55.242.188 at 2016-04-03 03:47:35 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.5) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.5) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (101.9ms)
+
+
+Started GET "/ideas" for 1.55.242.188 at 2016-04-03 03:47:43 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.5) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.5) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (106.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddReplyIdToComments (20160403034615)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mALTER TABLE "comments" ADD "reply_id" integer[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160403034615"]]
+  [1m[36m (9.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/ideas" for 1.55.242.188 at 2016-04-03 03:48:49 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.6ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 605ms (Views: 556.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 03:48:50 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 03:48:50 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 03:48:50 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-d2e5ccad1506299feea3a35bfb7c525e101bb3b214303715deb675fdc539948b.css?body=1" for 1.55.242.188 at 2016-04-03 03:48:50 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 1.55.242.188 at 2016-04-03 03:48:50 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 1.55.242.188 at 2016-04-03 03:48:50 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-5beb12bc18b9be7168ac37349124f55738fdfdce9e525383f83bfd688d0298f9.css?body=1" for 1.55.242.188 at 2016-04-03 03:48:50 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 1.55.242.188 at 2016-04-03 03:48:50 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 03:48:50 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 03:48:50 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 03:48:50 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 1.55.242.188 at 2016-04-03 03:48:50 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas/1" for 1.55.242.188 at 2016-04-03 03:48:55 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mIdea Load (0.4ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  [["idea_id", 1]]
+  Rendered comments/_form.html.erb (45.8ms)
+  Rendered ideas/show.html.erb within layouts/application (56.4ms)
+Completed 200 OK in 191ms (Views: 97.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/ideas/1" for 113.190.240.135 at 2016-04-03 03:51:08 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mIdea Load (0.2ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  [["idea_id", 1]]
+  Rendered comments/_form.html.erb (9.7ms)
+  Rendered ideas/show.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 101ms (Views: 61.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 113.190.240.135 at 2016-04-03 03:51:08 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-d2e5ccad1506299feea3a35bfb7c525e101bb3b214303715deb675fdc539948b.css?body=1" for 113.190.240.135 at 2016-04-03 03:51:08 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 113.190.240.135 at 2016-04-03 03:51:08 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 113.190.240.135 at 2016-04-03 03:51:08 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-5beb12bc18b9be7168ac37349124f55738fdfdce9e525383f83bfd688d0298f9.css?body=1" for 113.190.240.135 at 2016-04-03 03:51:08 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 113.190.240.135 at 2016-04-03 03:51:08 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 113.190.240.135 at 2016-04-03 03:51:08 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 113.190.240.135 at 2016-04-03 03:51:08 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 113.190.240.135 at 2016-04-03 03:51:09 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 113.190.240.135 at 2016-04-03 03:51:09 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 113.190.240.135 at 2016-04-03 03:51:09 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 113.190.240.135 at 2016-04-03 03:51:09 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/comments" for 113.190.240.135 at 2016-04-03 03:51:19 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TKK9ngT/+ykYcg2UiZf72U0z6Qmm/sxa3ZiPhGBclSSKuHEpy4D8U09W3maaU2uOMWHgzG/lxsmYY/AZkip9zg==", "comment"=>{"idea_id"=>"1", "user_name"=>"", "body"=>"", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007f493cf74860 @tempfile=#<Tempfile:/tmp/RackMultipart20160403-4902-1543mkj.jpg>, @original_filename="Jellyfish.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"comment[picture]\"; filename=\"Jellyfish.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Comment"}
+Unpermitted parameter: picture
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered comments/_form.html.erb (4.2ms)
+  Rendered comments/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 50ms (Views: 43.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/comments" for 113.190.240.135 at 2016-04-03 03:51:41 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TKK9ngT/+ykYcg2UiZf72U0z6Qmm/sxa3ZiPhGBclSSKuHEpy4D8U09W3maaU2uOMWHgzG/lxsmYY/AZkip9zg==", "comment"=>{"idea_id"=>"1", "user_name"=>"ab", "body"=>"aq", "picture"=>#<ActionDispatch::Http::UploadedFile:0x00000000cb7bb8 @tempfile=#<Tempfile:/tmp/RackMultipart20160403-4902-ied91e.jpg>, @original_filename="Jellyfish.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"comment[picture]\"; filename=\"Jellyfish.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Comment"}
+Unpermitted parameter: picture
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "comments" ("user_name", "body", "idea_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["user_name", "ab"], ["body", "aq"], ["idea_id", 1], ["created_at", "2016-04-03 03:51:41.494645"], ["updated_at", "2016-04-03 03:51:41.494645"]]
+  [1m[36m (11.0ms)[0m  [1mcommit transaction[0m
+Redirected to https://railsgirls-hn1-tuoingoit.c9users.io/ideas/1
+Completed 302 Found in 33ms (ActiveRecord: 11.7ms)
+
+
+Started GET "/ideas/1" for 113.190.240.135 at 2016-04-03 03:51:41 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mIdea Load (0.2ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 1]]
+  Rendered comments/_form.html.erb (2.5ms)
+  Rendered ideas/show.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 52ms (Views: 49.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ideas/1" for 1.55.242.188 at 2016-04-03 03:52:46 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mIdea Load (0.2ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?[0m  [["idea_id", 1]]
+  Rendered comments/_form.html.erb (3.8ms)
+  Rendered ideas/show.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 46ms (Views: 43.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 03:52:46 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-5beb12bc18b9be7168ac37349124f55738fdfdce9e525383f83bfd688d0298f9.css?body=1" for 1.55.242.188 at 2016-04-03 03:52:46 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-d2e5ccad1506299feea3a35bfb7c525e101bb3b214303715deb675fdc539948b.css?body=1" for 1.55.242.188 at 2016-04-03 03:52:46 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 03:52:46 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 1.55.242.188 at 2016-04-03 03:52:46 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 03:52:46 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 1.55.242.188 at 2016-04-03 03:52:46 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 1.55.242.188 at 2016-04-03 03:52:46 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 03:52:46 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 03:52:46 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 1.55.242.188 at 2016-04-03 03:52:46 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 03:52:46 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas/1" for 1.55.242.188 at 2016-04-03 04:01:43 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mIdea Load (0.3ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  ORDER BY "comments"."like_count" DESC[0m  [["idea_id", 1]]
+  Rendered comments/_form.html.erb (4.7ms)
+  Rendered ideas/show.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 114ms (Views: 63.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/scaffolds.self-d2e5ccad1506299feea3a35bfb7c525e101bb3b214303715deb675fdc539948b.css?body=1" for 1.55.242.188 at 2016-04-03 04:01:44 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 04:01:44 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 04:01:44 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 1.55.242.188 at 2016-04-03 04:01:44 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-5beb12bc18b9be7168ac37349124f55738fdfdce9e525383f83bfd688d0298f9.css?body=1" for 1.55.242.188 at 2016-04-03 04:01:44 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 04:01:44 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 1.55.242.188 at 2016-04-03 04:01:44 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 1.55.242.188 at 2016-04-03 04:01:44 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 04:01:44 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 04:01:44 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 04:01:44 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 1.55.242.188 at 2016-04-03 04:01:44 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/comments" for 1.55.242.188 at 2016-04-03 04:02:04 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h13lZhrkl7meSYiBs1tbkzHT7qESCjZKJqE0a6swwqZBRynR1ZuQw8ltW3Ogn8vETYHnZNsRPNljWkv2WUYqTA==", "comment"=>{"idea_id"=>"1", "user_name"=>"tuoi", "body"=>"we", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007f49389406c8 @tempfile=#<Tempfile:/tmp/RackMultipart20160403-4902-b06d94.jpg>, @original_filename="Jellyfish.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"comment[picture]\"; filename=\"Jellyfish.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Comment"}
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `picture_will_change!' for #<Comment:0x007f493892e1a8>
+Did you mean?  picture_cache):
+  app/controllers/comments_controller.rb:27:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (121.5ms)
+
+
+Started POST "/comments" for 1.55.242.188 at 2016-04-03 04:02:35 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h13lZhrkl7meSYiBs1tbkzHT7qESCjZKJqE0a6swwqZBRynR1ZuQw8ltW3Ogn8vETYHnZNsRPNljWkv2WUYqTA==", "comment"=>{"idea_id"=>"1", "user_name"=>"trang", "body"=>"haha", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007f493d3a3008 @tempfile=#<Tempfile:/tmp/RackMultipart20160403-4902-dusvm2.jpg>, @original_filename="Jellyfish.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"comment[picture]\"; filename=\"Jellyfish.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Comment"}
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `picture_will_change!' for #<Comment:0x007f493d378c90>
+Did you mean?  picture_cache):
+  app/controllers/comments_controller.rb:27:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (116.9ms)
+
+
+Started POST "/comments" for 1.55.242.188 at 2016-04-03 04:03:06 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (2.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h13lZhrkl7meSYiBs1tbkzHT7qESCjZKJqE0a6swwqZBRynR1ZuQw8ltW3Ogn8vETYHnZNsRPNljWkv2WUYqTA==", "comment"=>{"idea_id"=>"1", "user_name"=>"trang", "body"=>"haha", "picture"=>#<ActionDispatch::Http::UploadedFile:0x00000002a1f390 @tempfile=#<Tempfile:/tmp/RackMultipart20160403-5882-14swbna.jpg>, @original_filename="Jellyfish.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"comment[picture]\"; filename=\"Jellyfish.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Comment"}
+Completed 500 Internal Server Error in 66ms (ActiveRecord: 0.6ms)
+
+NoMethodError (undefined method `picture_will_change!' for #<Comment:0x00000001ee1f00>
+Did you mean?  picture_cache):
+  app/controllers/comments_controller.rb:27:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (113.4ms)
+
+
+Started GET "/" for 1.55.242.188 at 2016-04-03 04:03:12 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas" for 1.55.242.188 at 2016-04-03 04:03:12 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.5ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 393ms (Views: 375.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/ideas/1" for 1.55.242.188 at 2016-04-03 04:03:15 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mIdea Load (0.4ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  ORDER BY "comments"."like_count" DESC  [["idea_id", 1]]
+  Rendered comments/_form.html.erb (59.0ms)
+  Rendered ideas/show.html.erb within layouts/application (74.5ms)
+Completed 200 OK in 238ms (Views: 118.5ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/comments" for 113.190.240.135 at 2016-04-03 04:06:41 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cemOjg8/0NJccDND0tUe9ND1mmGxSLpSZfEgr6fVUay380I5wEDXqAtU4LHBEY6jrKeTpHhTsMEgCl8yVaO5Rg==", "comment"=>{"idea_id"=>"1", "user_name"=>"mai", "body"=>"hihe", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007f4d7973abb8 @tempfile=#<Tempfile:/tmp/RackMultipart20160403-5882-6lcq8m.jpg>, @original_filename="Jellyfish.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"comment[picture]\"; filename=\"Jellyfish.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Comment"}
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.9ms)
+
+NoMethodError (undefined method `picture_will_change!' for #<Comment:0x007f4d79988820>
+Did you mean?  picture_cache):
+  app/controllers/comments_controller.rb:27:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (93.1ms)
+
+
+Started POST "/comments" for 1.55.242.188 at 2016-04-03 04:07:54 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cemOjg8/0NJccDND0tUe9ND1mmGxSLpSZfEgr6fVUay380I5wEDXqAtU4LHBEY6jrKeTpHhTsMEgCl8yVaO5Rg==", "comment"=>{"idea_id"=>"1", "user_name"=>"mai", "body"=>"hihe", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007f4d7a4eef70 @tempfile=#<Tempfile:/tmp/RackMultipart20160403-5882-9kmev.jpg>, @original_filename="Jellyfish.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"comment[picture]\"; filename=\"Jellyfish.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Comment"}
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.9ms)
+
+NoMethodError (undefined method `picture_will_change!' for #<Comment:0x007f4d74680a38>
+Did you mean?  picture_cache):
+  app/controllers/comments_controller.rb:27:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (104.7ms)
+
+
+Started POST "/comments" for 1.55.242.188 at 2016-04-03 04:08:09 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cemOjg8/0NJccDND0tUe9ND1mmGxSLpSZfEgr6fVUay380I5wEDXqAtU4LHBEY6jrKeTpHhTsMEgCl8yVaO5Rg==", "comment"=>{"idea_id"=>"1", "user_name"=>"mai", "body"=>"hihe", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007f4d7ac44108 @tempfile=#<Tempfile:/tmp/RackMultipart20160403-5882-1ikfck.jpg>, @original_filename="Jellyfish.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"comment[picture]\"; filename=\"Jellyfish.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Comment"}
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 1.1ms)
+
+NoMethodError (undefined method `picture_will_change!' for #<Comment:0x007f4d7aba7f88>
+Did you mean?  picture_cache):
+  app/controllers/comments_controller.rb:27:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (117.0ms)
+
+
+Started POST "/comments" for 1.55.242.188 at 2016-04-03 04:08:24 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"akPwIj/IhcijHEhW3HaNYr2MVYJytMUK/ulfd6NyP2OsWTyV8LeCsvQ4m6TPsh01wd5cR7uvz5m7EiDqUQTXiQ==", "comment"=>{"idea_id"=>"1", "user_name"=>"mai", "body"=>"hihe", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007f4d78f721d8 @tempfile=#<Tempfile:/tmp/RackMultipart20160403-5882-1apbbn2.jpg>, @original_filename="Jellyfish.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"comment[picture]\"; filename=\"Jellyfish.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Comment"}
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `picture_will_change!' for #<Comment:0x007f4d78f44c88>
+Did you mean?  picture_cache):
+  app/controllers/comments_controller.rb:27:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (106.5ms)
+
+
+Started GET "/" for 1.55.242.188 at 2016-04-03 04:09:00 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/ideas" for 1.55.242.188 at 2016-04-03 04:09:01 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.4ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 440ms (Views: 406.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/ideas/2" for 1.55.242.188 at 2016-04-03 04:09:08 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mIdea Load (0.5ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  ORDER BY "comments"."like_count" DESC  [["idea_id", 2]]
+  Rendered comments/_form.html.erb (81.4ms)
+  Rendered ideas/show.html.erb within layouts/application (103.0ms)
+Completed 200 OK in 272ms (Views: 169.3ms | ActiveRecord: 4.1ms)
+
+
+Started POST "/comments" for 1.55.242.188 at 2016-04-03 04:09:35 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V71+PDD5Kn/wcwSbKEMJARakDboU5mCOReU/mW/sEzeRp7KL/4YtBadX12k7h5lWavYEf939ah0AHkAEnZr73Q==", "comment"=>{"idea_id"=>"2", "user_name"=>"thieu", "body"=>"muahahaha", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fd2f27d8698 @tempfile=#<Tempfile:/tmp/RackMultipart20160403-6740-1og467z.jpg>, @original_filename="Jellyfish.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"comment[picture]\"; filename=\"Jellyfish.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Comment"}
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `picture_will_change!' for #<Comment:0x007fd2f27ea348>
+Did you mean?  picture_cache):
+  app/controllers/comments_controller.rb:27:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (116.1ms)
+
+
+Started GET "/ideas/2" for 1.55.242.188 at 2016-04-03 04:10:28 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mIdea Load (0.2ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  ORDER BY "comments"."like_count" DESC  [["idea_id", 2]]
+  Rendered comments/_form.html.erb (3.0ms)
+  Rendered ideas/show.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 39ms (Views: 35.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 04:10:28 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 04:10:28 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 04:10:28 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-d2e5ccad1506299feea3a35bfb7c525e101bb3b214303715deb675fdc539948b.css?body=1" for 1.55.242.188 at 2016-04-03 04:10:28 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-5beb12bc18b9be7168ac37349124f55738fdfdce9e525383f83bfd688d0298f9.css?body=1" for 1.55.242.188 at 2016-04-03 04:10:28 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 1.55.242.188 at 2016-04-03 04:10:28 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 1.55.242.188 at 2016-04-03 04:10:28 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 1.55.242.188 at 2016-04-03 04:10:28 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 04:10:28 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 04:10:28 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 04:10:28 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 1.55.242.188 at 2016-04-03 04:10:28 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/comments" for 113.190.240.135 at 2016-04-03 04:10:37 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"idrROeRt3o+f9sE8Ru0NL5CQWBly+OsQuXiKevyrH7tPwB2OKxLZ9cjSEs5VKZ147MJR3Lvj4YP8g/XnDt33UQ==", "comment"=>{"idea_id"=>"2", "user_name"=>"test", "body"=>"test", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fd2f19aecc0 @tempfile=#<Tempfile:/tmp/RackMultipart20160403-6740-1o9iccg.jpg>, @original_filename="Koala.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"comment[picture]\"; filename=\"Koala.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Comment"}
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `picture_will_change!' for #<Comment:0x007fd2f197b730>
+Did you mean?  picture_cache):
+  app/controllers/comments_controller.rb:27:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (115.1ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddPictureToComments (20160403041138)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "comments" ADD "picture" varchar[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160403041138"]]
+  [1m[36m (40.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 1.55.242.188 at 2016-04-03 04:11:55 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/ideas" for 1.55.242.188 at 2016-04-03 04:11:55 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.3ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 416ms (Views: 378.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/ideas/1" for 1.55.242.188 at 2016-04-03 04:11:57 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mIdea Load (0.4ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  ORDER BY "comments"."like_count" DESC  [["idea_id", 1]]
+  Rendered comments/_form.html.erb (80.5ms)
+  Rendered ideas/show.html.erb within layouts/application (108.4ms)
+Completed 200 OK in 266ms (Views: 188.7ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/comments" for 1.55.242.188 at 2016-04-03 04:12:05 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fc1GckGapoGj39/Jm7siCQRykTKeo1iBk75Uaz3TZXm714rFjuWh+/T7DDuIf7JeeCCY91e4UhLWRSv2z6WNkw==", "comment"=>{"idea_id"=>"1", "user_name"=>"tets", "body"=>"testt", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fc2e281f518 @tempfile=#<Tempfile:/tmp/RackMultipart20160403-7554-7m4m2f.jpg>, @original_filename="Penguins.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"comment[picture]\"; filename=\"Penguins.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Comment"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "comments" ("user_name", "body", "idea_id", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["user_name", "tets"], ["body", "testt"], ["idea_id", 1], ["picture", "Penguins.jpg"], ["created_at", "2016-04-03 04:12:05.912420"], ["updated_at", "2016-04-03 04:12:05.912420"]]
+  [1m[36m (14.7ms)[0m  [1mcommit transaction[0m
+Redirected to https://railsgirls-hn1-tuoingoit.c9users.io/comments/8
+Completed 302 Found in 47ms (ActiveRecord: 15.5ms)
+
+
+Started GET "/comments/8" for 1.55.242.188 at 2016-04-03 04:12:06 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mComment Load (0.6ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = ? LIMIT 1  [["id", 8]]
+  Rendered comments/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 45ms (Views: 42.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/ideas" for 1.55.242.188 at 2016-04-03 04:12:09 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[36mIdea Load (0.3ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 43ms (Views: 41.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas/1" for 1.55.242.188 at 2016-04-03 04:12:10 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mIdea Load (0.4ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  ORDER BY "comments"."like_count" DESC[0m  [["idea_id", 1]]
+  Rendered comments/_form.html.erb (2.9ms)
+  Rendered ideas/show.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 49ms (Views: 45.9ms | ActiveRecord: 0.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started POST "/comments" for 113.190.240.135 at 2016-04-03 04:16:50 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nQof+a8gQd5C9sbtmPW9QHJ6CYohTVHbc9LmfR06WCNbENNOYF9GpBXSFR+LMS0XDigAT+hWW0g2KZng70ywyQ==", "comment"=>{"idea_id"=>"1", "user_name"=>"aa", "body"=>"no", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fc2e3193f18 @tempfile=#<Tempfile:/tmp/RackMultipart20160403-7554-1pjg2ja.jpg>, @original_filename="Tulips.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"comment[picture]\"; filename=\"Tulips.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Comment"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "comments" ("user_name", "body", "idea_id", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["user_name", "aa"], ["body", "no"], ["idea_id", 1], ["picture", "Tulips.jpg"], ["created_at", "2016-04-03 04:16:50.865786"], ["updated_at", "2016-04-03 04:16:50.865786"]]
+  [1m[35m (17.5ms)[0m  commit transaction
+Redirected to https://railsgirls-hn1-tuoingoit.c9users.io/comments/9
+Completed 302 Found in 50ms (ActiveRecord: 19.4ms)
+
+
+Started GET "/comments/9" for 113.190.240.135 at 2016-04-03 04:16:50 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = ? LIMIT 1[0m  [["id", 9]]
+  Rendered comments/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 35ms (Views: 32.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/comments" for 113.190.240.135 at 2016-04-03 04:16:54 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#index as HTML
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments"
+  Rendered comments/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/comments/1" for 113.190.240.135 at 2016-04-03 04:17:05 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered comments/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 34ms (Views: 32.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 113.190.240.135 at 2016-04-03 04:17:07 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas" for 113.190.240.135 at 2016-04-03 04:17:07 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.4ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 47ms (Views: 41.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/ideas/1" for 113.190.240.135 at 2016-04-03 04:17:09 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mIdea Load (0.3ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  ORDER BY "comments"."like_count" DESC  [["idea_id", 1]]
+  Rendered comments/_form.html.erb (2.6ms)
+  Rendered ideas/show.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 48ms (Views: 41.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 113.190.240.135 at 2016-04-03 04:17:15 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas" for 113.190.240.135 at 2016-04-03 04:17:15 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[36mIdea Load (0.3ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 44ms (Views: 42.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas/2" for 113.190.240.135 at 2016-04-03 04:17:17 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mIdea Load (0.2ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  ORDER BY "comments"."like_count" DESC[0m  [["idea_id", 2]]
+  Rendered comments/_form.html.erb (2.4ms)
+  Rendered ideas/show.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 52ms (Views: 49.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ideas/3" for 113.190.240.135 at 2016-04-03 04:17:23 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mIdea Load (0.2ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  ORDER BY "comments"."like_count" DESC[0m  [["idea_id", 3]]
+  Rendered comments/_form.html.erb (2.8ms)
+  Rendered ideas/show.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 59ms (Views: 56.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/comments" for 113.190.240.135 at 2016-04-03 04:17:43 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Gt0SNYUWTFIWOeRga1kgNtdgE4474TIEUX1SRxIGPV/cx96CSmlLKEEdN5J4nbBhqzIaS/L6OJcUhi3a4HDVtQ==", "comment"=>{"idea_id"=>"3", "user_name"=>"tui", "body"=>"ac", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fc2e2bc9f60 @tempfile=#<Tempfile:/tmp/RackMultipart20160403-7554-1009usk.jpg>, @original_filename="Lighthouse.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"comment[picture]\"; filename=\"Lighthouse.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Comment"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "comments" ("user_name", "body", "idea_id", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["user_name", "tui"], ["body", "ac"], ["idea_id", 3], ["picture", "Lighthouse.jpg"], ["created_at", "2016-04-03 04:17:43.014568"], ["updated_at", "2016-04-03 04:17:43.014568"]]
+  [1m[35m (34.7ms)[0m  commit transaction
+Redirected to https://railsgirls-hn1-tuoingoit.c9users.io/comments/10
+Completed 302 Found in 50ms (ActiveRecord: 35.1ms)
+
+
+Started GET "/comments/10" for 113.190.240.135 at 2016-04-03 04:17:43 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = ? LIMIT 1[0m  [["id", 10]]
+  Rendered comments/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 113.190.240.135 at 2016-04-03 04:17:45 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas" for 113.190.240.135 at 2016-04-03 04:17:45 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.3ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas/2" for 113.190.240.135 at 2016-04-03 04:17:47 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mIdea Load (0.2ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  ORDER BY "comments"."like_count" DESC  [["idea_id", 2]]
+  Rendered comments/_form.html.erb (2.2ms)
+  Rendered ideas/show.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 44ms (Views: 41.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 113.190.240.135 at 2016-04-03 04:17:50 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas" for 113.190.240.135 at 2016-04-03 04:17:50 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[36mIdea Load (0.3ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas/3" for 113.190.240.135 at 2016-04-03 04:17:52 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mIdea Load (0.2ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  ORDER BY "comments"."like_count" DESC[0m  [["idea_id", 3]]
+  Rendered comments/_form.html.erb (2.6ms)
+  Rendered ideas/show.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 46ms (Views: 43.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 113.190.240.135 at 2016-04-03 04:17:57 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas" for 113.190.240.135 at 2016-04-03 04:17:57 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.3ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas/2" for 113.190.240.135 at 2016-04-03 04:17:59 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mIdea Load (0.2ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  ORDER BY "comments"."like_count" DESC  [["idea_id", 2]]
+  Rendered comments/_form.html.erb (2.1ms)
+  Rendered ideas/show.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 157ms (Views: 154.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 113.190.240.135 at 2016-04-03 04:18:03 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas" for 113.190.240.135 at 2016-04-03 04:18:03 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[36mIdea Load (0.3ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 61ms (Views: 60.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas/1" for 113.190.240.135 at 2016-04-03 04:18:05 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mIdea Load (0.2ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  ORDER BY "comments"."like_count" DESC[0m  [["idea_id", 1]]
+  Rendered comments/_form.html.erb (2.8ms)
+  Rendered ideas/show.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 140ms (Views: 137.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 113.190.240.135 at 2016-04-03 04:18:25 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas" for 113.190.240.135 at 2016-04-03 04:18:25 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.3ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas/2" for 113.190.240.135 at 2016-04-03 04:18:27 +0000
+Cannot render console from 113.190.240.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mIdea Load (0.2ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  ORDER BY "comments"."like_count" DESC  [["idea_id", 2]]
+  Rendered comments/_form.html.erb (3.3ms)
+  Rendered ideas/show.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 49ms (Views: 46.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/comments" for 1.55.242.188 at 2016-04-03 04:18:41 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2Lo077jJFHbiF4itpYtYBRx4YnKTp4fqrYfjPiSKXCweoPhYd7YTDLUzW1+2T8hSYCprt1q8jXnofJyj1vy0xg==", "comment"=>{"idea_id"=>"2", "user_name"=>"er", "body"=>"ac", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fc2e166dae0 @tempfile=#<Tempfile:/tmp/RackMultipart20160403-7554-69uyr.jpg>, @original_filename="Desert.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"comment[picture]\"; filename=\"Desert.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Comment"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("user_name", "body", "idea_id", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["user_name", "er"], ["body", "ac"], ["idea_id", 2], ["picture", "Desert.jpg"], ["created_at", "2016-04-03 04:18:41.706898"], ["updated_at", "2016-04-03 04:18:41.706898"]]
+  [1m[36m (12.9ms)[0m  [1mcommit transaction[0m
+Redirected to https://railsgirls-hn1-tuoingoit.c9users.io/comments/11
+Completed 302 Found in 23ms (ActiveRecord: 13.3ms)
+
+
+Started GET "/comments/11" for 1.55.242.188 at 2016-04-03 04:18:41 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mComment Load (0.2ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = ? LIMIT 1  [["id", 11]]
+  Rendered comments/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 30.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 1.55.242.188 at 2016-04-03 04:18:46 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas" for 1.55.242.188 at 2016-04-03 04:18:46 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[36mIdea Load (0.4ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (53.2ms)
+Completed 200 OK in 97ms (Views: 95.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ideas/2/edit" for 1.55.242.188 at 2016-04-03 04:18:51 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mIdea Load (0.2ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered ideas/_form.html.erb (3.7ms)
+  Rendered ideas/edit.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 1.55.242.188 at 2016-04-03 04:18:54 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas" for 1.55.242.188 at 2016-04-03 04:18:54 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[36mIdea Load (0.6ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/ideas/2" for 1.55.242.188 at 2016-04-03 04:18:56 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mIdea Load (0.3ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  ORDER BY "comments"."like_count" DESC[0m  [["idea_id", 2]]
+  Rendered comments/_form.html.erb (2.5ms)
+  Rendered ideas/show.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 48ms (Views: 44.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/ideas/2" for 1.55.242.188 at 2016-04-03 04:20:33 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mIdea Load (0.2ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  ORDER BY "comments"."like_count" DESC[0m  [["idea_id", 2]]
+  Rendered comments/_form.html.erb (7.9ms)
+  Rendered ideas/show.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 102ms (Views: 62.0ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 04:20:33 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-d2e5ccad1506299feea3a35bfb7c525e101bb3b214303715deb675fdc539948b.css?body=1" for 1.55.242.188 at 2016-04-03 04:20:33 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 04:20:33 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 1.55.242.188 at 2016-04-03 04:20:33 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 1.55.242.188 at 2016-04-03 04:20:33 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-5beb12bc18b9be7168ac37349124f55738fdfdce9e525383f83bfd688d0298f9.css?body=1" for 1.55.242.188 at 2016-04-03 04:20:33 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 1.55.242.188 at 2016-04-03 04:20:33 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 1.55.242.188 at 2016-04-03 04:20:33 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 04:20:33 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 04:20:34 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 1.55.242.188 at 2016-04-03 04:20:34 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 1.55.242.188 at 2016-04-03 04:20:34 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/comments" for 1.55.242.188 at 2016-04-03 04:20:50 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YYB5Kw5vgYmrCQ4PC8wmKNH6gTgTocFJtqhHw7Ta02inmrWcwRCG8/wt3f0YCLZ/raiI/dq6y9rzUzheRqw7gg==", "comment"=>{"idea_id"=>"2", "user_name"=>"q", "body"=>"a", "picture"=>#<ActionDispatch::Http::UploadedFile:0x007fc2e2c02fe0 @tempfile=#<Tempfile:/tmp/RackMultipart20160403-7554-hhhe7o.jpg>, @original_filename="Hydrangeas.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"comment[picture]\"; filename=\"Hydrangeas.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Comment"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "comments" ("user_name", "body", "idea_id", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["user_name", "q"], ["body", "a"], ["idea_id", 2], ["picture", "Hydrangeas.jpg"], ["created_at", "2016-04-03 04:20:50.356133"], ["updated_at", "2016-04-03 04:20:50.356133"]]
+  [1m[35m (17.5ms)[0m  commit transaction
+Redirected to https://railsgirls-hn1-tuoingoit.c9users.io/ideas/2
+Completed 302 Found in 33ms (ActiveRecord: 18.2ms)
+
+
+Started GET "/ideas/2" for 1.55.242.188 at 2016-04-03 04:20:50 +0000
+Cannot render console from 1.55.242.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mIdea Load (0.2ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idea_id" = ?  ORDER BY "comments"."like_count" DESC  [["idea_id", 2]]
+  Rendered comments/_form.html.erb (2.3ms)
+  Rendered ideas/show.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 44ms (Views: 40.6ms | ActiveRecord: 0.4ms)
