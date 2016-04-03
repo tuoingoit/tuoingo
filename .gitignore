@@ -3,7 +3,7 @@ node_modules
 .c9
 .DS_Store
 Thumbs.db
-
+log/
 # C/C++
 *.slo
 *.lo
@@ -57,4 +57,5 @@ _yardocpublic/uploads
 tmp
 logs
 .c9
-
+log
+public
